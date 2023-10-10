@@ -236,7 +236,7 @@ p{
     margin-top: 100px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -300,4 +300,40 @@ p{
     font-size: 16px;
     font-weight: 400;
     line-height: 120%;
+}
+.klmn{
+    display: flex;
+    margin-top: 100px;
+    padding: 75px 0px;
+    align-items: flex-start;
+    gap: 60px;
+    align-self: stretch;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+.akv{
+    display: flex;
+    max-width: 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.chago{
+    display: flex;
+    max-height: 149px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.zv{
+    color: #2886EB;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
 }
